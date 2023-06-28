@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divas Jaglan</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Merriweather:ital,wght@1,300&family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 
+  <title>Solution | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+    body{
+      background-color: #d7e6e7;
+      font-family: 'Outfit', sans-serif;
+      text-align: center;
+    }
+
+    .container{
+      width:20%;
+      margin: 200px auto;
+      background-color: #fff;
+      border-radius: 16px;
+    }
+
+    .qr-image{
+      width: 240px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 16px;
+      position: relative;
+      top: 11px;
+    }
+
+    .p1{
+      padding: 20px 20px 0;
+      font-size: 15px;
+      font-weight: 700px;
+    }
+
+
+    .p2{
+      color: #616364;
+      padding: 0 20px 0;
+      font-size: 15px;
+      font-weight: 400px;
+    }
+
+    .attribution { font-size: 11px; text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .attribution a { color: hsl(228, 44%, 55%); 
+      padding: 0 5px;
+      text-decoration: none;
+    }
+
+  </style>
 </head>
 <body>
+  <div class="container">
+  <img class="qr-image" src="image-qr-code.png" alt="">
 
-    <div class="top-container">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm Divas</h1>
-    <h2 class="a-pro">a <span>pro</span>grammer</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-    <img src="images/mountain.png" alt="mountai-img">
+  <p class="p1">
+
+  <strong class="strong">Improve your front-end skills by building projects</strong><br>
+  </p>
+  
+  <p class="p2">
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+</p>
+
+</p>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> <br><br>
+    Coded by <a href="#">Divas Jaglan</a>
+  </div>
 </div>
-
-<div class="middle-container">
-    <div class="profile">
-      <img class="pic" src="images/profile.png" alt="">
-      <h2>Hello.</h2>
-      <p>I like gaining new knowledge all the time</p>
-    </div>
-
-    <hr>
-
-    <div class="skills">
-      <h2>My Skills.</h2>
-
-      <div class="skill-row">
-        <img class="web-pic" src="https://img.icons8.com/?size=512&id=2AwTyojNQNts&format=png" alt="coding-icon">
-        <h3>Web Designing</h3>
-        <p>Since, I knew about this skill i was very eager to learn everything i can about this art.</p>
-
-      </div>
-
-      <div class="skill-row">
-        <img class="art-pic" src="https://img.icons8.com/?size=512&id=KeAmttPIsdZF&format=png" alt="martial_arts-icon">
-        <h3>Martial Arts</h3>
-        <p>It keeps your body and mind free</p>
-      </div>
-    </div>
-
-    <hr>
-    
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you also like coding</h3>
-      <p class="c-message">Let's talk about how awesome it feels when solve a problem.
-        I would love to take your opinion on coding.
-      </p>
-      <a class="btn" href="mailto:divasjaglan9@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
-  
-  
-  <div class="bottom-container">
-    <a class="" href="https://www.linkedin.com/feed/">LinkedIn</a>
-    <a class="footer-link" href="https://www.instagram.com/">Instagram</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="dj">© 2018 Divas Jaglan.</p>
-  </div>
 </body>
 </html>
