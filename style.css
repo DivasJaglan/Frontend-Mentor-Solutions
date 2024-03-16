@@ -55,9 +55,3 @@ body {
   color: hsl(228, 44%, 55%);
   font-weight: 700;
 }
-
-@media (max-width: 425px) {
-  .main {
-    gap: 15px;
-  }
-}
